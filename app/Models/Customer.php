@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Customer extends Model
+{
+    protected $table    = 'customers';
+    protected $fillable = [
+        'id',
+        'CustomerName',
+        'Phone',
+        'created_at',
+        'updated_at'
+    ];
+
+    public function vehicles()
+    {
+        return $this->hasMany(Vehicle::class, 'CustomerId', 'id');
+    }
+}

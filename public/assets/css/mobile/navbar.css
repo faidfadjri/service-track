@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    padding: 0px 36px 0px 36px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: black;
+}
+
+.nav-active {
+    background: #25BDE3;
+    border-radius: 100px;
+    padding: 8px;
+    color: white;
+}

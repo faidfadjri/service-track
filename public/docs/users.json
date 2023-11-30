@@ -1,0 +1,62 @@
+[
+    {
+        "username": "Admin",
+        "fullname": "Admin",
+        "role": 1
+    },
+    {
+        "username": "helmi",
+        "fullname": "Helmi Adam",
+        "role": 1
+    },
+    {
+        "username": "irfan",
+        "fullname": "Irfan Santoso",
+        "role": 1
+    },
+    {
+        "username": "sangaji",
+        "fullname": "Mohamad Sangaji",
+        "role": 2
+    },
+    {
+        "username": "setiawan",
+        "fullname": "Setiawan Eko Saputra",
+        "role": 2
+    },
+    {
+        "username": "ivan",
+        "fullname": "Ivan Fadhillah",
+        "role": 2
+    },
+    {
+        "username": "gopur",
+        "fullname": "Abdul Gopur",
+        "role": 3
+    },
+    {
+        "username": "japar",
+        "fullname": "Japarudin",
+        "role": 3
+    },
+    {
+        "username": "slamet",
+        "fullname": "Slamet",
+        "role": 4
+    },
+    {
+        "username": "akbar",
+        "fullname": "Akbar M. Ramdani",
+        "role": 5
+    },
+    {
+        "username": "irma",
+        "fullname": "Irma Agustin",
+        "role": 6
+    },
+    {
+        "username": "rtunggu",
+        "fullname": "Ruang Tunggu",
+        "role": 7
+    }
+]

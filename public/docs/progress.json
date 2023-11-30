@@ -1,0 +1,47 @@
+[
+    {
+        "progress": "Reception"
+    },
+    {
+        "progress": "Waiting for Service"
+    },
+    {
+        "progress": "Service"
+    },
+    {
+        "progress": "Waiting for Inspection"
+    },
+    {
+        "progress": "Inspection"
+    },
+    {
+        "progress": "Waiting for Washing"
+    },
+    {
+        "progress": "Washing"
+    },
+    {
+        "progress": "Waiting for Billing"
+    },
+    {
+        "progress": "Billing"
+    },
+    {
+        "progress": "Waiting for Notification"
+    },
+    {
+        "progress": "Notification"
+    },
+    {
+        "progress": "Waiting for Payment"
+    },
+    {
+        "progress": "Payment Finish"
+    },
+    {
+        "progress": "Finish"
+    },
+    {
+        "progress": "Paused"
+    }
+]

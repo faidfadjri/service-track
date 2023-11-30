@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+    .sidebar, 
+    .topbar,
+    .page-title,
+    #add {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .content {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .main {
+        min-height: 100vh;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex !important;
+    }
+}

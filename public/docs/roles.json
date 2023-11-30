@@ -1,0 +1,23 @@
+[
+    {
+        "role": "Service Advisor"
+    },
+    {
+        "role": "Teknisi"
+    },
+    {
+        "role": "Foreman"
+    },
+    {
+        "role": "Washing"
+    },
+    {
+        "role": "Billing"
+    },
+    {
+        "role": "Cashier"
+    }, 
+    {
+        "role": "Ruang Tunggu"
+    }
+]

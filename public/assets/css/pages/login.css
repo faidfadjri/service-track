@@ -1,0 +1,73 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --cyan : #12ADD3;
+}
+
+body {
+    height: 100vh;
+    /* position: fixed; */
+    background: linear-gradient(178deg, #4CF6A7 -11.77%, #25BDE3 110.57%);
+}
+
+form {
+    gap: 12px;
+    width: 45%;
+    height: 75%;
+    padding: 35px;
+    border-radius: 10px;
+    background: var(--white);
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(178deg, #4CF6A7 -11.77%, #25BDE3 110.57%);
+}
+
+.logo-wrap {
+    gap: 12px;
+    height: 30%;
+}
+
+.logo {
+    width: 70px;
+    height: 61px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.form-wrap {
+    height: 70%;
+    width: 100%;
+    border-top: 2px solid #0000005E;
+    /* padding-top: 42px; */
+}
+
+.form-wrap .mb-3 {
+    width: 100%;
+}
+
+.btn-login {
+    margin-top: 12px;
+    padding: 15px 199px;
+    width: 100% !important;
+    border-radius: 5px;
+    border: none;
+    background: var(--cyan);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+}
+
+form button {
+    width: 100%;
+}

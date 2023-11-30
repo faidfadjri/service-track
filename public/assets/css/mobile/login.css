@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+    #login-form {
+        width: 90%;
+        height: 380px;
+        justify-content: start;
+    }
+
+    .logo-wrap {
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .form-wrap {
+        height: auto;
+        padding-top: 12px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .btn-login {
+        padding: 0;
+        height: 40px;
+    }
+}

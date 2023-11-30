@@ -1,0 +1,389 @@
+.main-search {
+    height: auto;
+    width: 100vw;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.top {
+    height: 55%;
+    background: url('../../img/background.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-wrap {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 70%;
+    gap: 12px;
+}
+
+.logo-wrap {
+    gap: 12px;
+    height: 30%;
+}
+
+.logo {
+    width: 70px;
+    height: 61px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.desc {
+    color: white;
+    font-size: 16px;
+    margin-bottom: -8px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 58px;
+    border-radius: 5px;
+    background: #fff;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    height: 100%;
+    width: 85%;
+    border: none;
+}
+
+.btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 4px;
+    width: 40%;
+}
+
+.btn-search {
+    background: #E15B67;
+    font-size: 14px !important;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-height {
+    height: 45%;
+}
+
+.bottom .card {
+    height: 80%;
+    width: 666px;
+    border-radius: 10px;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.bottom:hover {
+    filter: brightness(0.99);
+}
+
+.bottom .card .card-body {
+    position: relative !important;
+}
+
+.division{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 100px;
+    color: #03A25F;
+    background: rgba(76, 246, 167, 0.54);
+}
+
+.card-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-detail {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transform: translateY(-16px);
+}
+
+.progress {
+    background-color: #D9D9D9 !important;
+    height: 5px !important;
+    transform: translateY(52px) !important; 
+    width: 100%;
+    z-index: 12;
+}
+
+.progress-bar {
+    background-color: #25BDE3 !important;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrap p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.wait {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+
+.checkpoint {
+    width: 34px;
+    height: 34px;
+    background: #fff;
+    border: 4px solid #D9D9D9;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.checkpoint i {
+    color: #ababab;
+}
+
+.description {
+    padding: 26px;
+}
+
+.description img {
+    width: 80%;
+}
+
+.description .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-desc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.detail-desc {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.bi-circle-fill {
+    color: #D9D9D9;
+}
+
+.check {
+    border-color: #25BDE3 !important;
+    color: #25BDE3 !important;
+}
+
+td {
+    padding: 8px;
+    width: 50%;
+}
+
+/* .track-modal {
+    background: #D9D9D9 !important;
+} */
+
+
+.modal-body
+.history
+.chain
+.wrap
+.checkpoint {
+    font-size: 2em;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    margin-bottom:8px !important;
+}
+
+.modal-body
+.history
+.chain
+.bi-circle-fill {
+    transform: translateY(-22px);
+    font-size: 1.5em !important;
+}
+
+.modal-body
+.progress {
+    transform: translateY(66px) !important;
+}
+
+.modal-body
+.progress
+.wrap p {
+    font-size: 16px;
+}
+
+.line {
+    border-left: 4px solid #25BDE3;
+    transform: translateX(12px);
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
+
+.points .current {
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+
+.points div {
+    transform: translateY(-4px) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.line .points .bi-circle-fill {
+    color: #25BDE3 !important;
+    transform: translateX(-10px) !important;
+    margin-bottom: 60px;
+}
+
+.see-more {
+    float: right;
+    color: lightgray;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.description-table td {
+    padding: 100px !important;
+    background: red;
+}
+
+.mobile-chain {
+    display: none;
+}
+
+.mobile-line {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .bottom .card {
+        width: 90%;
+    }
+
+    .top-wrap {
+        width: 90%;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 51px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .card-name {
+        font-size: 20px;
+    }
+
+    .chain {
+        display: none;
+    }
+
+    .mobile-chain {
+        position: relative !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: 92vw !important;
+        transform: translateY(-16px);
+        gap: 24px;
+    }
+
+    .mobile-chain .wrap {
+        margin-left: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center !important;
+        height: 36px;
+        gap: 8px;
+    }    
+
+    .wrap p {
+        margin-top: 18px;
+        font-size: 16px;
+        color: #000 !important;
+    }
+
+    .mobile-chain .bi-circle-fill {
+        display: none;
+    }
+
+    .progress {
+        display: none !important;
+    }    
+
+    .mobile-line {
+        display: block !important;
+        position: absolute;
+        left: 38px;
+        top: 5%;
+        width: 5px;
+        height: 90%;
+        background: #25BDE3;
+    }
+}

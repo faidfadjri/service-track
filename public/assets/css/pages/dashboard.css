@@ -1,0 +1,57 @@
+.logo-wrap {
+    gap: 12px;
+    height: 30%;
+}
+
+.logo {
+    width: 70px;
+    height: 61px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.dashboard-main {
+    height: 100%;
+    width: 100vw;
+    padding: 36px;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.dashboard-tr th {
+    background: #25BDE3 !important;
+    border: 1px solid lightgrey;
+    color: white;
+}
+
+.dashboard-tr td {
+    padding: 8px !important;
+    border: 1px solid lightgrey;
+    color: #84919A;
+    line-height: 24px !important;
+}
+
+.timestamp {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.pagination-buttons button {
+    background: #25BDE3;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 4px 12px 4px 12px;
+}
