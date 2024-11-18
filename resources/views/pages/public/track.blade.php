@@ -3,10 +3,6 @@
 <link rel="stylesheet" href="{{ asset('assets/css/components/footer.css') }}">
 @section('content')
     <div class="main-search" style="position: relative;">
-
-
-      
-        <a href="/login" class="btn btn-primary" style="position: absolute; right:1%; top:3%">Login</a>
         <div class="top">
             <div class="top-wrap">
                 <div class="logo-wrap">
